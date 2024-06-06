@@ -1,0 +1,98 @@
+body {
+        font-family: "Happy Monkey", system-ui;
+        text-align: center;
+        color: #ffffff;
+        background: linear-gradient(lightblue, pink);
+}
+
+#img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 5px solid #EFB0C9;
+}
+
+h1, h2 , h3, h4 {
+    text-shadow: 0 0 1px black;
+    margin: 10px 0 10px 0;
+}
+
+#items {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#bday-age {
+    background-color: #EFB0C9;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+#bday-year {
+    background-color: #EFB0C9;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 0;
+}
+
+.img-2 {
+    width: 400px;
+    border: 4px solid #EFB0C9;
+    border-radius: 3px;
+    height: 400px;
+    background-image: url("images/jess-bailey-f94JPVrDbnY-unsplash.jpg");
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.img-2:hover {
+    background-image: url("images/b-day-note.png");
+    background-size: contain;
+}
+
+.note-1 {
+    margin-top: 40px;
+}
+
+.img-3 {
+    width: 400px;
+    border: 4px solid #EFB0C9;
+    border-radius: 3px;
+    height: 400px;
+    background-image: url("images/jess-bailey-f94JPVrDbnY-unsplash.jpg");
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.note-3 {
+    margin-top: 40px;
+}
+
+.img-3:hover {
+background-image: url("images/happy\ image.jpeg");
+background-size: contain;
+}
+
+#img-4 {
+    width: 400px;
+    border: 5px solid #EFB0C9;
+    height: 200px;
+    background-image: url("images/jess-bailey-f94JPVrDbnY-unsplash.jpg");
+    background-size: cover;
+}
+
+#img-4:hover {
+    background-image: url("images/christine-jou-6PPQDX2liKE-unsplash.jpg");
+}
+
+.note-4 {
+    margin-top: 50px;
+}
+
+#footer {
+    margin-top: 50px;
+    font-size: small;
+    font-style: italic;
+    color: white;
+}
